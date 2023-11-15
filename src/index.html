@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="/styles.css">
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+    />
+    <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Roboto Condensed:wght@400;500;600;700&display=swap"
+    />
+    <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=ABeeZee:wght@400;500;600;700&display=swap"
+    />
+    <title>MD6</title>
+</head>
+<body>
+    <section class="btn-section">
+        <button class="btn-class" data-target="rect-1">Button 1</button>
+        <button class="btn-class" data-target="rect-2" style="background: #5C0187B5;">Button 2</button>
+        <button class="btn-class" data-target="rect-3" style="background: #8711018F;">Button 3</button>
+        <button class="btn-class" data-target="rect-4" style="background: #01870E;">Button 4</button>
+        <button class="btn-class" data-target="rect-5" style="background: #E2CF22;">Button 5</button>
+        <button class="btn-class" data-target="rect-count" style="background: #011E87;">Button 6</button>
+    </section>
+
+    <section class="rect-section">
+        <div class="rect-container">
+            <div class="rect" id="rect-1"></div>
+            <div class="rect" id="rect-2">FAIL</div>
+            <div class="rect" id="rect-3"></div>
+            <div class="rect" id="rect-4"></div>
+            <div class="rect" id="rect-5">0</div>
+            <div class="rect" id="rect-count">0</div>
+        </div>
+    </section>
+    
+    <section class="center-wrapper">
+        <div class="ftr-section">
+            <button class="btn-class" id="all-rects", style="background-color: #18D5E1;">Button 7</button>
+            <input type="text" class="input-box" id= "input-box" placeholder="Input placeholder"/>
+            <div class="out-box" id="out-box"></div>
+        </div>
+    </section>
+    <script src="/scripts.js"></script>
+</body>
+</html>
